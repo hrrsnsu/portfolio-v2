@@ -20,4 +20,11 @@
 
 .NavLinks--linkText {
     color: var(--light-gray);
+    transition: 0.3s;
+}
+
+.NavLinks--linkText:hover {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
 }

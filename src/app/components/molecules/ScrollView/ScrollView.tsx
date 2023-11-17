@@ -33,6 +33,7 @@ const ScrollView = (props: Props) => {
           skills={["React", "Baba", "TypeScript"]}
         />
       </ContentBox>
+      <div className='Timeline__top'></div>
       <ContentBox>
         <Timeline
           header="Neosensory"

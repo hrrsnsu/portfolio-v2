@@ -1,11 +1,11 @@
 import React from "react";
 import Image, { StaticImageData } from "next/image";
-import './Icon.css'
+import "./Icon.css";
 
 type Props = {
   src: string | StaticImageData;
   alt: string;
-  href?: string
+  href?: string;
 };
 
 const Icon = (props: Props) => {
