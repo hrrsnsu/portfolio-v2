@@ -1,0 +1,11 @@
+.Title {
+    color: var(--spot-green);
+    font-size: 3rem;
+    margin: 0;
+}
+
+.Subtitle {
+    color: var(--light-gray);
+    font-size: 1.25rem;
+    margin: 0;
+}

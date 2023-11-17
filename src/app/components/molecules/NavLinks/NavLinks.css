@@ -1,0 +1,23 @@
+.NavLinks {
+    margin-top: 4rem;
+    list-style: none;
+    padding: 0;
+}
+
+.NavLinks--link {
+    display: flex;
+    align-items: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.NavLinks--linkBar {
+    width: 4rem !important;
+    height: 1px;
+    background-color: var(--light-gray);
+    margin-right: 1rem;
+}
+
+.NavLinks--linkText {
+    color: var(--light-gray);
+}

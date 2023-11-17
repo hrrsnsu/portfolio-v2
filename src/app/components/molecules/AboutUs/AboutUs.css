@@ -1,0 +1,18 @@
+.AboutUs {
+    @media screen and (min-width: 1024px) {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        position: sticky;
+        top: 0;
+    }
+}
+
+.AboutUs--content {
+    display: flex;
+    flex-direction: column;
+}

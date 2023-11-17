@@ -1,0 +1,33 @@
+.TimelineContainer {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.Timeline {
+    color: var(--light-gray);
+}
+
+.Timeline__contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Timeline__subHeader { 
+    color: var(--light-gray);
+}
+
+.Timeline__header { 
+    color: var(--spot-green);
+}
+
+.Timeline__desc { 
+    color: var(--light-gray);
+    font-size: 1rem;
+    max-width: 20rem;
+}
+.Timeline__buttonContainer { 
+    display: flex;
+    gap: .25rem;
+}
