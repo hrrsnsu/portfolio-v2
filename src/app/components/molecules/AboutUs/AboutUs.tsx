@@ -18,9 +18,8 @@ const AboutUs = (props: Props) => {
           companies.
         </Description>
         <NavLinks/>
-        <IconBar />
       </header>
-      
+      <IconBar />
     </div>
   );
 };

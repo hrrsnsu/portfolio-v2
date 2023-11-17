@@ -1,14 +1,15 @@
-import React from 'react'
+import React from "react";
+import Image, { StaticImageData } from "next/image";
+import './Icon.css'
 
 type Props = {
-    src?: string,
-    alt?: string,
-}
+  src: string | StaticImageData;
+  alt: string;
+  href?: string
+};
 
 const Icon = (props: Props) => {
-  return (
-    <img src={props.src} alt={props.alt}/>
-  )
-}
+  return <Image className="Icon" src={props.src} alt={props.alt} />;
+};
 
-export default Icon
+export default Icon;

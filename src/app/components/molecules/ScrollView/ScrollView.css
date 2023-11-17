@@ -1,6 +1,6 @@
 .ScrollView {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
     display: flex;
     flex-direction: column;
     gap: 2rem;
