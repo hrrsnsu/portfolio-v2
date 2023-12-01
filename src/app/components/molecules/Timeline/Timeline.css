@@ -29,7 +29,3 @@
     font-size: 1rem;
     max-width: 20rem;
 }
-.Timeline__buttonContainer { 
-    display: flex;
-    gap: .25rem;
-}
