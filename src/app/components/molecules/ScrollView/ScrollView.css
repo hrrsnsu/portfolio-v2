@@ -3,11 +3,11 @@
     margin-bottom: 15vh;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     width: 50%;
 }
 
 .ScrollView__desc {
     color: var(--light-gray);
-
+    margin-bottom: 9rem;
 }

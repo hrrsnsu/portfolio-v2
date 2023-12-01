@@ -11,13 +11,13 @@ const ScrollView = (props: Props) => {
       <p className="ScrollView__desc">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        <br/>
-        <br/>
+        <br />
+        <br />
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        <br/>
-        <br/>
+        <br />
+        <br />
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
@@ -33,7 +33,7 @@ const ScrollView = (props: Props) => {
           skills={["React", "Baba", "TypeScript"]}
         />
       </ContentBox>
-      <div className='Timeline__top'></div>
+      <div className="Timeline__top"></div>
       <ContentBox>
         <Timeline
           header="Neosensory"
@@ -42,7 +42,7 @@ const ScrollView = (props: Props) => {
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequat."
-          timeline="2021"
+          timeline="June 2021 - Sept 2021"
           skills={["Python", "Keras", "Jupiter"]}
         />
       </ContentBox>
@@ -54,7 +54,7 @@ const ScrollView = (props: Props) => {
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequat."
-          timeline="2020"
+          timeline="June 2020 - Sept 2020"
           skills={["AWS", "Python", "Rekognition"]}
         />
       </ContentBox>

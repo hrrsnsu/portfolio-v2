@@ -1,0 +1,10 @@
+.ContentBox {
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+
+.ContentBox:hover {
+    background-color: #1f1e1e;
+    opacity: 80%;
+}

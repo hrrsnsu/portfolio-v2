@@ -20,8 +20,8 @@ const Timeline = (props: Props) => {
         </div>
         <div className="Timeline__desc">{props.desc}</div>
         <div className="Timeline__buttonContainer">
-          {props.skills?.map((skill) => {
-            return <Button>{skill}</Button>;
+          {props.skills?.map((skill, index) => {
+            return <Button key={index}>{skill}</Button>;
           })}
         </div>
       </div>

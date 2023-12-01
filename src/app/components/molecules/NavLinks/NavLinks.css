@@ -9,13 +9,15 @@
     align-items: center;
     padding-top: .75rem;
     padding-bottom: .75rem;
+    cursor: pointer;
 }
 
 .NavLinks--linkBar {
-    width: 4rem !important;
+    width: 2rem;
     height: 1px;
     background-color: var(--light-gray);
     margin-right: 1rem;
+    transition: 0.3s;
 }
 
 .NavLinks--linkText {
@@ -23,8 +25,12 @@
     transition: 0.3s;
 }
 
-.NavLinks--linkText:hover {
-    cursor: pointer;
-    font-size: 1.5rem;
+.NavLinks--link:hover .NavLinks--linkBar {
+    width: 4rem;
+    background-color: white;
+}
+
+.NavLinks--link:hover .NavLinks--linkText {
     color: white;
 }
+

@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
+import "./ContentBox.css";
 
 type Props = {
-    children: React.ReactNode;
-}
+  children: React.ReactNode;
+};
 
 const ContentBox = (props: Props) => {
-  return (
-    <div>{props.children}</div>
-  )
-}
+  return <div className="ContentBox">{props.children}</div>;
+};
 
-export default ContentBox
+export default ContentBox;

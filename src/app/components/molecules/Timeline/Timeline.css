@@ -2,10 +2,12 @@
     display: flex;
     gap: 2rem;
     justify-content: space-between;
+    overflow: auto;
 }
 
 .Timeline {
     color: var(--light-gray);
+    min-width: 10rem;
 }
 
 .Timeline__contentContainer {
