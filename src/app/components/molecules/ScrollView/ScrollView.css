@@ -3,7 +3,6 @@
     margin-bottom: 15vh;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
     width: 50%;
 }
 
@@ -13,9 +12,15 @@
 }
 
 .ScrollView__timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     margin-bottom: 9rem;
 }
 
 .ScrollView__projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     margin-bottom: 9rem;
 }

@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     const pageElem = pageContainerRef.current;
     if (pageElem) {
-      pageElem.style.background = `radial-gradient(1500px at ${left}px ${top}px, rgba(53, 53, 53, 0.15), transparent 15%)`;
+      pageElem.style.background = `radial-gradient(2000px at ${left}px ${top}px, rgba(100, 100, 100, 0.15), transparent 15%)`;
     }
   }, [left, top]);
 
