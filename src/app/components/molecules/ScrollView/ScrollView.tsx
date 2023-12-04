@@ -5,6 +5,8 @@ import Timeline from "../Timeline/Timeline";
 import Project from "../Project/Project";
 import tinderIcon from "../../../../../public/icons8-tinder-256.png";
 import redditIcon from "../../../../../public/redditIcon.png";
+import spotifyIcon from "../../../../../public/spotifylogo.png";
+
 type Props = {};
 
 const ScrollView = (props: Props) => {
@@ -76,6 +78,18 @@ const ScrollView = (props: Props) => {
         <span className="ScrollView__sectionHeaderText">PROJECTS</span>
       </div>
       <div className="ScrollView__projects">
+        <ContentBox>
+          <Project
+            header="Spotif-AI"
+            href="https://github.com/hrrsnsu/spotifai"
+            subHeader=""
+            desc="Created a web application that uses a Spotify user's data to create them art.
+            The application uses a dalle model to create art from a prompt based on top songs, artists, and genres of a Spotify User. Utilizes as flask backend and ReactJS frontend"
+            projectImage={spotifyIcon}
+            projectImageAlt="spotify image"
+            skills={["ReactJS", "A.I.", "CSS", "Flask"]}
+          />
+        </ContentBox>
         <ContentBox>
           <Project
             header="Tinder Clone"
