@@ -18,8 +18,6 @@ const NavLinks = (props: Props) => {
     }
   };
 
-  console.log(active)
-
   return (
     <nav>
       <ul className="NavLinks">

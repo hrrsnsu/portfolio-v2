@@ -10,6 +10,10 @@ type Props = {};
 const ScrollView = (props: Props) => {
   return (
     <div className="ScrollView">
+      <div className="ScrollView__section">
+        <span className="ScrollView__sectionHeaderBar"></span>
+        <span className="ScrollView__sectionHeaderText">ABOUT</span>
+      </div>
       <p className="ScrollView__desc">
         Discovering gaming at age 10 sparked a curiosity for the code behind the
         magic, propelling me from player to creator.
@@ -25,6 +29,10 @@ const ScrollView = (props: Props) => {
         artistic touch to coding, ensuring that the user experience is not only
         efficient but also visually engaging.
       </p>
+      <div className="ScrollView__section">
+        <span className="ScrollView__sectionHeaderBar"></span>
+        <span className="ScrollView__sectionHeaderText">EXPERIENCE</span>
+      </div>
       <div className="ScrollView__timeline">
         <ContentBox>
           <Timeline
@@ -62,6 +70,10 @@ const ScrollView = (props: Props) => {
             skills={["AWS", "Python", "Rekognition"]}
           />
         </ContentBox>
+      </div>
+      <div className="ScrollView__section">
+        <span className="ScrollView__sectionHeaderBar"></span>
+        <span className="ScrollView__sectionHeaderText">PROJECTS</span>
       </div>
       <div className="ScrollView__projects">
         <ContentBox>
