@@ -13,7 +13,6 @@ const NavLinks = (props: Props) => {
         ele.scrollIntoView({
           behavior: "smooth",
           block: "center",
-          inline: "center",
         });
       }
     }
@@ -72,7 +71,7 @@ const NavLinks = (props: Props) => {
           <a
             className="NavLinks--link"
             onClick={() => {
-              handleClick("Timeline__top");
+              handleClick("Project__top");
               setActive("pro");
             }}
           >

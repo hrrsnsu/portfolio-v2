@@ -1,0 +1,39 @@
+.ProjectContainer {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.Project {
+    color: var(--light-gray);
+    min-width: 10rem;
+}
+
+.Project__contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Project__subHeader { 
+    color: var(--light-gray);
+}
+
+.Project__header {
+    display: flex;
+    gap: .25rem;
+    transition: .3s;
+}
+
+.Project__header > a { 
+    color: var(--spot-green);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Project__desc { 
+    color: var(--light-gray);
+    font-size: 1rem;
+    max-width: 20rem;
+}

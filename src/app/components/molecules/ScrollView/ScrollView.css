@@ -11,3 +11,11 @@
     color: var(--light-gray);
     margin-bottom: 9rem;
 }
+
+.ScrollView__timeline {
+    margin-bottom: 9rem;
+}
+
+.ScrollView__projects {
+    margin-bottom: 9rem;
+}
