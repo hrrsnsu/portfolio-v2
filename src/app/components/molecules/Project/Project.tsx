@@ -22,7 +22,7 @@ const Project = (props: Props) => {
       <div className="Project__contentContainer">
         <div>
           <div className="Project__header">
-            <a>{props.header}</a>
+            <a href={props.href} target="_blank">{props.header}</a>
             <Icon
               src={linkIcon}
               alt="link icon"

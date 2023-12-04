@@ -19,7 +19,7 @@ const ScrollView = (props: Props) => {
         magic, propelling me from player to creator.
         <br />
         <br />
-        Instead of delving deeper into game development, I found an interst in
+        Instead of delving deeper into game development, I found an interest in
         creating interactive and beautiful web experiences. This lead me to
         machine learning and artificial intelligence. From this, I gained
         experience building in innovative companies.

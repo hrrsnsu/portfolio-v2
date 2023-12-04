@@ -20,7 +20,7 @@ const Timeline = (props: Props) => {
       <div className="Timeline__contentContainer">
         <div>
           <div className="Timeline__header">
-            <a>{props.header}</a>
+            <a href={props.href} target="_blank">{props.header}</a>
             <Icon
               src={linkIcon}
               alt="link icon"
