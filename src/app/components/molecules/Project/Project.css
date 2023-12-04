@@ -2,7 +2,16 @@
     display: flex;
     gap: 2rem;
     justify-content: space-between;
+    align-items: center;
     overflow: auto;
+
+    @media (max-width: 1024px) {
+        justify-content: space-evenly;
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .Project {

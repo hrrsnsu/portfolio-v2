@@ -18,7 +18,7 @@ type Props = {
 const Project = (props: Props) => {
   return (
     <div className="ProjectContainer">
-      <Image src={props.projectImage} alt={props.projectImageAlt}/>
+      <Image src={props.projectImage} alt={props.projectImageAlt} width={128} height={128}/>
       <div className="Project__contentContainer">
         <div>
           <div className="Project__header">
