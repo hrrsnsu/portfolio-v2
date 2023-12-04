@@ -18,7 +18,7 @@ const ScrollView = (props: Props) => {
         Instead of delving deeper into game development, I found an interst in
         creating interactive and beautiful web experiences. This lead me to
         machine learning and artificial intelligence. From this, I gained
-        experience building innovative companies.
+        experience building in innovative companies.
         <br />
         <br />
         Nowadays, I work as a web engineer at Credit One Bank. I bring an
