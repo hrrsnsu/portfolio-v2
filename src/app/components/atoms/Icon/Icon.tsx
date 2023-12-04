@@ -7,6 +7,7 @@ type Props = {
   src: string | StaticImageData;
   alt: string;
   href: string;
+  size?: string;
 };
 
 const Icon = (props: Props) => {
@@ -15,8 +16,8 @@ const Icon = (props: Props) => {
       className="Icon"
       src={props.src}
       alt={props.alt}
-      width={25}
-      height={25}
+      width={props.size === "small" ? 12.5 : 25}
+      height={props.size === "small" ? 12.5 : 25}
     />
   </Link>);
 };

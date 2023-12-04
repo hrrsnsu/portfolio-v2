@@ -16,7 +16,7 @@ const AboutUs = (props: Props) => {
           Software Engineer
         </Title>
         <Description marginTop="1rem">
-          I have experience full stack developing on fast paced start ups and
+          with experience in full stack developing on fast paced start ups and
           corporate level companies.
         </Description>
         <NavLinks />

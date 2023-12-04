@@ -1,5 +1,4 @@
 import React from "react";
-import Description from "../../atoms/Description/Description";
 import "./ScrollView.css";
 import ContentBox from "../ContentBox/ContentBox";
 import Timeline from "../Timeline/Timeline";
@@ -14,7 +13,7 @@ const ScrollView = (props: Props) => {
         <br />
         <br />
         Instead of delving deeper into game development, I found an interst in creating interactive and beautiful web experiences.
-        This lead me to machine learning and artificial intelligence. From this, I gained experience building on fast-paced start ups.
+        This lead me to machine learning and artificial intelligence. From this, I gained experience building innovative companies.
         <br />
         <br />
         Nowadays, I work as a web engineer at Credit One Bank. I bring an artistic touch to coding, ensuring that the user experience is not only efficient but also visually engaging.
@@ -45,7 +44,7 @@ const ScrollView = (props: Props) => {
       </ContentBox>
       <ContentBox>
         <Timeline
-          header="Mission Cloud (Prev. Stratalux)"
+          header="Mission (Prev. Stratalux)"
           href="https://www.missioncloud.com/"
           subHeader="Software Engineer Intern"
           desc="Developed image recognition application that splices video and analyzes scenes using AWS Rekognition API. 

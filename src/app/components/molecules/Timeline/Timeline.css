@@ -20,6 +20,12 @@
     color: var(--light-gray);
 }
 
+.Timeline__header {
+    display: flex;
+    gap: .25rem;
+    transition: .3s;
+}
+
 .Timeline__header > a { 
     color: var(--spot-green);
     text-decoration: none;

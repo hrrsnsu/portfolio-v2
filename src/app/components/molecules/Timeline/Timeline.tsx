@@ -1,13 +1,16 @@
 import React from "react";
 import "./Timeline.css";
 import Button from "../../atoms/Button/Button";
+import linkIcon from "../../../../../public/linkIcon.png";
+import Icon from "../../atoms/Icon/Icon";
+
 type Props = {
   timeline?: string;
   header?: string;
   subHeader?: string;
   desc?: string;
   skills?: string[];
-  href?: string;
+  href: string;
 };
 
 const Timeline = (props: Props) => {
@@ -17,7 +20,13 @@ const Timeline = (props: Props) => {
       <div className="Timeline__contentContainer">
         <div>
           <div className="Timeline__header">
-            <a href=''>{props.header}</a>
+            <a>{props.header}</a>
+            <Icon
+              src={linkIcon}
+              alt="link icon"
+              href={props.href}
+              size="small"
+            />
           </div>
           <div className="Timeline__subHeader">{props.subHeader}</div>
         </div>
