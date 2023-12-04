@@ -7,6 +7,7 @@ type Props = {
   subHeader?: string;
   desc?: string;
   skills?: string[];
+  href?: string;
 };
 
 const Timeline = (props: Props) => {
@@ -15,7 +16,9 @@ const Timeline = (props: Props) => {
       <div className="Timeline">{props.timeline}</div>
       <div className="Timeline__contentContainer">
         <div>
-          <div className="Timeline__header">{props.header}</div>
+          <div className="Timeline__header">
+            <a href=''>{props.header}</a>
+          </div>
           <div className="Timeline__subHeader">{props.subHeader}</div>
         </div>
         <div className="Timeline__desc">{props.desc}</div>

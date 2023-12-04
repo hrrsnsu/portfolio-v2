@@ -20,8 +20,10 @@
     color: var(--light-gray);
 }
 
-.Timeline__header { 
+.Timeline__header > a { 
     color: var(--spot-green);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .Timeline__desc { 
