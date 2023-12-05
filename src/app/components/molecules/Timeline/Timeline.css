@@ -39,9 +39,4 @@
 .Timeline__desc { 
     color: var(--light-gray);
     font-size: 1rem;
-    max-width: 20rem;
-    
-    @media (max-width: 1024px) {
-        max-width: unset;
-    }
 }
