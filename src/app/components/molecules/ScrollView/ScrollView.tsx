@@ -44,7 +44,7 @@ const ScrollView = (props: Props) => {
             desc="Developed and implemented components to client facing corporate and acquisitions webpages. 
           Utilized unit and integration testing to ensure dependable code.
           Followed an Agile methodology with large collaboration between UI/UX and content management teams."
-            timeline="2022 - Present"
+            timeline="June 2022 - Present"
             skills={["React", "TypeScript", "Java", "AEM"]}
           />
         </ContentBox>
@@ -53,7 +53,7 @@ const ScrollView = (props: Props) => {
           <Timeline
             header="Neosensory"
             href="https://neosensory.com/"
-            subHeader="Machine Learning Intern"
+            subHeader="Software Engineering Intern"
             desc="Developed and tested scalable batch processing pipelines for enriching speech database (5,000+ hrs) with gender, signal-to-noise ratio, and fundamental frequency metadata.
           Formulated ideas and experimental strategies to optimize product such as a voice modulation application using various frequency translation algorithms"
             timeline="June 2021 - Sept 2021"
